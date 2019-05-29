@@ -13,7 +13,7 @@
         </dependency>
 ```
   
-  - add these Beans to your spring config, as this example does at {SpringServertimingsExampleApplication.java](/src/main/java/io/github/sercasti/springservertimingsexample/SpringServertimingsExampleApplication.java):
+  - add these Beans to your spring config, as this example does at [SpringServertimingsExampleApplication.java](/src/main/java/io/github/sercasti/springservertimingsexample/SpringServertimingsExampleApplication.java):
 ```
     @Bean
     protected Tracing tracing() {
