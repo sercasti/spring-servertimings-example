@@ -36,5 +36,9 @@
   - or autowire/inject the Tracing interface and use it on a specific block of code, as [ExampleService.java](/src/main/java/io/github/sercasti/springservertimingsexample/service/ExampleService.java) does
 
 # Test it
-  - Start this project with spring-boot:run, open localhost:8080, and check your network console on chrome:
+  - Start this project with "mvn spring-boot:run",
+  - open localhost:8080
+  - check your network console on chrome, find the localhost request, open it
+  - there's a "timing" tab
+   
   ![](images/Example.png)
